@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ebe8e6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 40px;
+    max-width: 800px;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #000;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+    font-weight: bold;
+}
+
+header img {
+    width: 80px;
+    height: 80px;
+    border-radius: 0;
+    object-fit: cover;
+}
+
+.content {
+    display: flex;
+}
+
+.left-column {
+    flex: 2;
+    padding-right: 20px;
+}
+
+.right-column {
+    flex: 1;
+    padding-left: 20px;
+    border-left: 1px solid #ccc;
+}
+
+h2 {
+    background-color: #000;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.personal-details p,
+.education p,
+.employment p,
+.skills p,
+.languages p,
+.hobbies p {
+    margin: 5px 0;
+}
+
+.education h3,
+.employment h3 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.employment .job {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.employment .date {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.languages ul {
+    padding-left: 20px;
+}
+
+.languages ul li {
+    margin: 5px 0px;
+}
+
+footer {
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #777;
+    text-align: center;
+}
